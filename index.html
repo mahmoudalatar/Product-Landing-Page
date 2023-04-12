@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style/all.min.css" />
+    <link rel="stylesheet" href="style/cropper.css" />
+    <link rel="stylesheet" href="style/style.css  " />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="img-container">
+        <img src="" alt="" />
+        <p>upload your img</p>
+      </div>
+      <div class="edit-container">
+        <div class="preview-img">
+          <div
+            class="preview-img-container"
+            style="height: 12rem; width: 16rem"
+          ></div>
+          <p>preview img</p>
+        </div>
+        <div class="edit-body">
+          <div>
+            <ul>
+              <li class="right">
+                <i class="fa-solid fa-xl fa-rotate-right"></i>
+              </li>
+              <li class="left">
+                <i class="fa-solid fa-xl fa-rotate-left"></i>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <ul>
+              <li class="right-left">
+                <i class="fa-solid fa-xl fa-arrow-right-arrow-left"></i>
+              </li>
+              <li class="up-down">
+                <i
+                  class="fa-solid fa-xl fa-arrow-right-arrow-left fa-rotate-90"
+                ></i>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <ul>
+              <li class="maximize">
+                <i class="fa-solid fa-xl fa-maximize"></i>
+              </li>
+              <li class="crop">
+                <i class="fa-solid fa-xl fa-crop-simple"></i>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="up-down-files">
+          <button class="Example-btn5 upload">upload</button>
+          <input type="file" class="hidden-upload" accept="image/*" />
+          <button class="Example-btn5 download">download</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/all.min.js"></script>
+    <script src="js/cropper.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>
