@@ -1,5 +1,5 @@
-# photo editing landing page
+# Product Landing Page
 
-#### img editing is the first task of syscinterns internship
+#### this project is the first task of syscinterns internship
 
 this web application is used for croping images
